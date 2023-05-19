@@ -11,9 +11,9 @@ client.on('ready', async () => {
         .setState('😹')
         .setName('Nats1337')
         .setDetails('🐵🍌')
-        .setAssetsLargeImage('')
+        .setAssetsLargeImage('') //discord image link example: https://cdn.discordapp.com/attachments/997862085172133949/1109235723791507527/ezgif-2-c427062ed3.png
         .setAssetsLargeText('')
-        .setAssetsSmallImage('')
+        .setAssetsSmallImage('') //discord image link
         .setAssetsSmallText('')
         .addButton('Github', 'https://github.com/Natslol')
         .addButton('Youtube Channel', 'https://www.youtube.com/@kiraisthebest69');
